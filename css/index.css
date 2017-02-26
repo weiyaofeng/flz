@@ -1,0 +1,86 @@
+#inbox{ width:1000px; margin:0px auto;}
+#inbox .gonggao{ width:978px; height:23px; border:1px #cfd2d4 solid; margin:12px auto; padding:0px 10px; line-height:23px;}
+#inbox .gonggao a{ color:#000;}
+#inbox .line1{ height:523px; overflow:hidden;}
+#inbox .jdtbox{ width:680px; height:508px; float:left;}
+#inbox .zxdtbox{ width:302px; height:508px; float:right; background:url(../images/index/zxdtbg.gif) left top no-repeat;}
+
+#imgShow {width:680px;height:508px;overflow:hidden; position:relative;}
+#imgbox1 {width:680px;height:400px; list-style-type:none;overflow:hidden; text-align:center;}
+#imgbox1 LI{ width:680px;height:400px;DISPLAY: none; }
+#btnbox1 {width:680px; height:98px; position:absolute; padding-top:7px;}
+#btnbox1 A{DISPLAY:block;float:left;WIDTH:166px;HEIGHT:98px;margin-right:5px;overflow:hidden;outline:none;}
+#btnbox1 A.curr { background:url(../Images/ico3.png) center top no-repeat;}
+
+#inbox .zxdtbox .toppic{ padding-top:48px; text-align:center; width:300px; height:145px; overflow:hidden;}
+#inbox .zxdtbox .topnew{ width:260px; margin:0px auto;}
+#inbox .zxdtbox .topnew li{ width:260px;line-height:25px; overflow:hidden; clear:both; float:left;}
+#inbox .zxdtbox .topnew li i{ font-style:normal; display:block; width:14px; height:14px; line-height:14px; overflow:hidden; color:#000; text-align:center; float:left; background:url(../images/ico.gif) left bottom no-repeat; margin-right:8px; margin-top:5px;}
+#inbox .zxdtbox .topnew li i.top3{ background-position:left top; color:#fff;}
+#inbox .zxdtbox .topnew li a{ display:block; float:left; color:#3a3a3a;}
+#inbox .zxdtbox .topnew li a:hover{color:#da0026;}
+#inbox .zxdtbox .topnew li span{float:right;}
+
+
+#inbox .line2{ width:1000px; height:378px; overflow:hidden; margin-bottom:10px; background-color:#e8e8e8;}
+#inbox .newtab{ width:638px; height:374px; float:left; overflow:hidden;}
+#inbox .newtab .xw_dh{ width:633px; height:40px; overflow:hidden; background:url(../images/index/xwtab.gif) no-repeat; padding-left:4px; margin-left:7px;}
+#inbox .newtab .xw_dh li{ width:89px; height:40px; float:left; overflow:hidden; text-align:center; background:url(../images/index/xwtab3.gif) right top no-repeat;}
+#inbox .newtab .xw_dh li.end{ background:none;}
+#inbox .newtab .xw_dh li a{ display:block;width:89px; height:40px;line-height:30px; font-size:14px; color:#333333;}
+#inbox .newtab .xw_dh li a:hover,#inbox .newtab .xw_dh li a.change{ background:url(../images/index/xwtab1.gif) left top no-repeat; color:#FFF; text-decoration:none;}
+#inbox .newtab .xw_con{ width:622px; height:336px; background:url(../images/index/xwtab2.gif) center bottom #f9f9f8 repeat-x; margin-left:12px;}
+#inbox .newtab .xw_con ul{ width:580px; margin:0px auto;}
+#inbox .newtab .xw_con ul li{height:65px; overflow:hidden; border-bottom:1px #CCC dashed;color:#666666; position:relative; padding-top:10px;}
+#inbox .newtab .xw_con ul li span{ display:block; position:absolute; right:0px; top:46px;}
+
+#inbox .lzjjs{ width:362px; height:374px; float:right; overflow:hidden;}
+#inbox .lzjjsc{ width:344px; height:336px;background:url(../images/index/xwtab2.gif) center bottom #f3f3f3 repeat-x; margin-left:10px;}
+#inbox .lzjjsc .jsjs{ width:324px; height:200px; margin:0px auto}
+#inbox .lzjjsc .jsjs .jspic{ width:130px; height:170px; float:left; overflow:hidden; padding-top:23px;}
+#inbox .lzjjsc .jsjs .jstxt{ width:174px; height:193px; float:right;overflow:hidden;}
+#inbox .lzjjsc .jsjs .jstxt span{ display:block; width:174px; height:38px; line-height:38px; color:#820016; text-align:center; font-family:"微软雅黑";font-size:14px; border-bottom:1px #c9c5e0 dotted; margin-bottom:8px;}
+#inbox .lzjjsc .jsjs .jstxt .wenzi{height:110px; color:#757575; line-height:22px; margin-bottom:13px; overflow:hidden;}
+#inbox .lzjjsc .jsjs .jstxt .zixun{ text-align:center;}
+#inbox .lzjjsc .zjgd{ width:324px; height:113px; overflow:hidden; margin:6px auto 0px auto;}
+#inbox .lzjjsc .zjgd .zjgdl{ width:9px; height:113px; float:left; overflow:hidden; background:url(../images/index/left.gif); cursor:pointer;}
+#inbox .lzjjsc .zjgd .zjgdr{ width:9px; height:113px; float:right; overflow:hidden; background:url(../images/index/right.gif); cursor:pointer;}
+#inbox .lzjjsc .zjgd .zjgdc{ float:left; width:260px; height:113px; overflow:hidden; margin-left:23px;}
+#inbox .lzjjsc .zjgd .zjgdc img{ margin-right:15px;}
+
+#inbox .line3{ width:1000px; height:419px; overflow:hidden; background-color:#e8e8e8;}
+#inbox .jdxm{ width:987px; height:362px; margin:0px auto; overflow:hidden; background-color:#FFF;}
+
+.left_nav{width:204px; height:363px;background:#fff; float:left; padding-left:1px; padding-right:1px;}
+.left_nav dl dd{ width:204px; height:38px; position:relative; margin-bottom:1px;}
+.left_nav dl dd .nav_right{ width:130px; height:auto; overflow:hidden; position:absolute; left:204px; top:0px; padding:5px;background:#fbf4db; display:none; border:4px solid #997c68;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+.left_nav dl dd .nav_right a{ width:130px;height:28px; line-height:28px; text-align:left; color:#000000;display:block;overflow: hidden; text-align:center; border-bottom:1px #a7a7a7 solid; text-decoration:none;}
+.left_nav dl dd .nav_right a:hover{background-color:#ffffff;}
+
+.left_nav dl dd a.nav_left{width:204px; height:38px; line-height:38px; background:url(../images/index/leftnav1.jpg) center center no-repeat;padding-left:0px; display:block;color:#666666; white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow: hidden;}
+.left_nav dl dd a.nav_left img{ width:30px; height:38px; overflow:hidden; margin-left:6px; float:left; margin-right:18px;}
+.left_nav dl dd a.nav_left span{ display:block; width:100px; height:38px; line-height:38px;}
+
+.left_nav dl dd a.nav_left:hover{background:url(../images/left_nav_dt_bg2.png) no-repeat 105px center #df0e32; color:#fff; text-decoration:none;}
+#inbox .jdxm .jdxmpic{ width:562px; height:350px; overflow:hidden; float:left;}
+#inbox .jdxm .jdxmwz{ width:210px; height:350px; float:right; overflow:hidden;}
+#inbox .jdxm .jdxmwz span{ width:200px;display:block; height:30px; line-height:30px; font-size:14px; color:#a2001d; font-weight:bold; border-bottom:1px #8b8b8b dotted;}
+#inbox .jdxm .jdxmwz ul{ width:200px; margin-top:5px;}
+#inbox .jdxm .jdxmwz ul li{ width:186px;height:24px; line-height:24px; background:url(../images/ico7.gif) 2px center no-repeat; padding-left:14px;}
+
+#inbox .line4{ width:1000px; height:140px; overflow:hidden; padding-top:20px; background:url(../images/index/ztbg.gif) center bottom repeat-x;}
+#inbox .line4 .zthg{ float:left; width:156px; height:120px; overflow:hidden;}
+#inbox .line4 .zthgl{ float:left; width:20px; height:120px; background:url(../images/index/ztfx.gif); overflow:hidden; cursor:pointer; margin-right:12px;}
+#inbox .line4 .zthgr{ float:right;width:20px; height:120px; background:url(../images/index/ztfx.gif) right top no-repeat; overflow:hidden; cursor:pointer;}
+#inbox .line4 .zthgc{ float:left; width:784px; height:120px; overflow:hidden;}
+#inbox .line4 .zthgc img{ height:120px; margin-right:9px;}
+
+#inbox .line5{ width:998px; min-height:100px; border:1px #dfdfdf solid; border-top:2px #666666 solid; margin-bottom:15px;}
+#inbox .line5 .ftitle{ width:978px; height:33px; line-height:33px; border-bottom:1px #dfdfdf solid; font-family:"微软雅黑";font-size:14px; color:#000; padding-left:20px;}
+#inbox .line5 .flink{ width:965px; margin:10px auto; line-height:22px; color:#3a3a3a;}
+
+
+
+
+
+
